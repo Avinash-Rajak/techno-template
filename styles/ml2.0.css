@@ -730,6 +730,38 @@ body{
     margin: 16px 0 15px;
 }
 
+
+.button-blog{
+    margin-top: 60px;
+}
+
+.button-blog a{
+    
+    background-color: #fff;
+    border: 2px solid #0C5ADB;
+    text-decoration: none;
+    color:#0C5ADB ;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px 26px;
+    border-radius: 3px;
+    transition:0.5s;
+    /* margin-left: 30px; */
+}
+
+.button-blog a:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: #0C5ADB;
+    color: white;
+}
+
+.button-blog a i{
+    border-radius: 90px;
+}
+
+
+
+
 /* ----------------footer--------------- */
 
 .footer-end{
