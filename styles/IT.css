@@ -1,3 +1,15 @@
+h1{
+  font-weight: 700;
+}
+h2{
+  font-weight: 625;
+}
+h6{
+  font-weight: 700;
+}
+small{
+  font-weight: 650;
+}
 .navbar{
   background-color: #09be95;
   /* height: 100px; */
