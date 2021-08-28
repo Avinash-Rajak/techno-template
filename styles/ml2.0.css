@@ -528,8 +528,32 @@ body{
 
 .service-card{
     min-height: 1px;
-    position: relative;
+    /* position: relative; */
     padding-right: 15px;
     padding-left: 16px;
+}
+
+.service-1{
+    padding: 28px  0px 28px ;
+    text-align: center;
+    /* position: relative; */
+    background: #fff;
+    border-radius: 7px;
+    transition: 0.5s;
+    box-shadow: 2px 10px 50px rgb(158 158 158 / 25%);
+    margin-bottom: 30px;
+}
+
+.service-1 i{
+    font-size: 60px;
+    display: inline-block;
+    transition: 0.5s;
+    color: #0c5adb;
+    margin-bottom: 15px;
+}
+.service-1 h2{
+   margin: 0 0 12px 0;
+    transition: .5s;
+    font-size: 22px;
 }
 
