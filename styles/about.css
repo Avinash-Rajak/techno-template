@@ -378,3 +378,189 @@
     color: #084bb8;
     transition: all 0.4s ease-in-out;
 }
+
+.content{
+    text-align: center;
+    background: #fff;
+    padding: 50px;
+    border-radius: 6px;
+}
+
+.picture{
+    position: relative;
+    display: inline-block;
+    float: none;
+    margin: 0 0 30px;
+}
+
+.picture img{
+    border-radius: 100%;
+    width: 115px;
+    margin: auto;
+}
+
+.picture::before{
+    content: "\f10d";
+    font-size: 18px;
+    position: absolute;
+    line-height: 50px;
+    bottom: 0px;
+    right: -16px;
+    background-color: #0c5adb;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.comment{
+    margin-bottom: 30px;
+    width: 71%;
+    margin:auto;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    color: rgb(136, 132, 132);
+}
+
+.testimonial-name{
+    margin-bottom: 4px;
+}
+.testimonial-name h2{
+    font-size: 20px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    font-weight: 600;
+}
+
+.testimonial-name h2 span{
+    color: #0c5adb;
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    padding-top: 5px;
+}
+
+.footer-end{
+    padding: 82px 0 33px;
+    position: relative;
+    background: #111a3a;
+}
+
+.content-footer img{
+    margin-bottom: 40px
+}
+.content-footer p{
+    font-size: 16px;
+    color: #f4f6fe;
+}
+/* -------------------------socialmediaicon----------------------------------------- */
+.social-icon ul{
+    margin-top: 5px;
+    list-style: none;
+    padding-left: 0px;
+}
+.social-icon ul li{
+    margin-top: 5px;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 10px;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.social-icon ul li a{
+    color: #f8f9fe;
+    font-size: 16px;
+}
+
+.content-footer h2{
+    font-size: 22px;
+    margin-bottom: 35px;
+    margin-top: 15px;
+    position: relative;
+    color: #f8f9fe;
+    font-weight: 700;
+}
+
+.menu-list ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.menu-list ul li{
+    margin-bottom: 13px;
+    position: relative;
+    font-size: 16px;
+    padding-left: 25px;
+    color: #f8f9fe;
+    
+}
+
+.menu-list ul li ::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 14px;
+    background: #f8f9fe;
+    height: 1px;
+    width: 10px;
+    font-size: 14px;
+}
+
+.menu-list ul li a{
+    color: #f8f9fe;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.content-footer p{
+    margin-bottom: 19px;
+    margin-top: 19px;
+    font-size: 16px;
+    color: #f4f6fe;
+    
+    
+}
+
+.recent-post{
+    margin-bottom: 19px;
+    padding-bottom: 5px;
+    /* border-bottom: 1px solid #E8E8E8; */
+}
+
+.recent-post img{
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.recent-post a img{
+    margin-bottom: 17px;
+}
+
+.recent-post h4{
+    margin-bottom: 2px;
+    margin-top: 0px;
+    line-height: 20px !important;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #F4F6Fe;
+}
+
+.recent-post  a{
+    text-decoration: none;
+}
+
+.date{
+    font-size: 11px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 998px) {
+    .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 2px 6px;
+    }
+}
