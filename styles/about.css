@@ -179,3 +179,202 @@
 .button-more a i{
     border-radius: 90px;
 }
+
+.service{
+    padding-bottom: 70px;
+    padding-top: 90px;
+}
+
+.title-section h5{
+    color: #0C5ADB;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 5px
+}
+
+.title-section h2{
+    font-size: 42px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    margin-top: 0;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+
+
+
+.moving-line{
+    margin: 18px 0 30px;
+}
+
+.moving-line-styling-2{
+    height: 5px;
+    width: 90px;
+    background: #aec6ef;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 30px;
+}
+
+.moving-line-styling-2:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -2.7px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #0C5ADB;
+}
+
+.service-card{
+    background: #fff;
+    border-radius: 5px;
+    padding: 40px 30px;
+    margin-bottom: 20px;
+    transition: 0.4s;
+    
+}
+
+.service-card:hover{
+    box-shadow: 0 22px 52px 7px #e9eef7;
+    
+}
+
+.service-icon{
+    z-index: 1;
+   
+}
+
+/* .service-icon::before{
+   position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 44px;
+    right: -7px;
+    background: #0C5ADB;
+    z-index: -1;
+} */
+
+.service-icon i{
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #0C5ADB;
+    text-align: center;
+    font-size: 60px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+.service-card h2{
+    margin: 0 0 15px 0;
+    font-size: 21px;
+    padding: 0;
+    transition: 0.4s;
+}
+
+.service-card h2:hover{
+    color:#0C5ADB;
+    transition: all 0.4s ease-in-out;
+}
+
+.customer{
+    background-image: url(/assets/img/partner-bg-1.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 96px;
+    padding-bottom: 200px;
+}
+
+/* -------------------------------follow us--------------------------- */
+.follow-page{
+    max-width: 650px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+    background-color: #ffffff;
+    margin-top: -101px;
+    padding: 50px 50px;
+    border-radius: 7px;
+    box-shadow: 2px 10px 50px rgb(158 158 158 / 25%);
+}
+
+.follow-icon i{
+    color: #06b3b9;
+    font-size: 60px;
+    display: inline-block
+}
+
+.follow-us-title{
+    color: #232323;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.follow-us-subtitle{
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: rgba(86,86,86,.8);
+    padding: 0;
+}
+
+/* --------------------------newsletter------------------ */
+
+.newsletter{
+    padding: 20px 20px 20px 20px;
+    font-size: 15px;
+}
+
+.submit{
+    border: none;
+    background-color: #0C5ADB;
+    position: absolute;
+    font-size: 16px;
+    padding: 0 20px;
+    padding-bottom: 7px;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.team-card{
+    border-radius: 5px;
+}
+
+.intro-member{
+    padding: 16px 20px 23px 20px;
+    box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+    border-bottom: solid 3px #084bb8;  
+}
+
+.intro-member h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    transition: 0.4s;
+    margin-top: 10px;
+    
+}
+
+.intro-member h2:hover{
+    color: #084bb8;
+    transition: all 0.4s ease-in-out;
+}
