@@ -50,7 +50,7 @@
 /* -------------------------header--------------------- */
 
 #section-team{
-    padding: 170px 0 200px;
+    padding: 170px 0 170px;
     position: relative;
     background-position: center;
     background-size: cover;
@@ -59,7 +59,7 @@
 .header-title h2{
     margin-top: 100px;
     font-size: 60px;
-    color: #000;
+    color: #fff;
 }
 
 
