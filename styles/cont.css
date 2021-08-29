@@ -12,14 +12,7 @@ small{
 }
 .navbar{
     background-color: #09be95;
-    /* height: 100px; */
-    
   }
-  
-  /* .navbar-light{
-    color: #fff;
-  } */
-  
   .fa-search{
     background-color: #0C5ADB;
     height: 30px;
@@ -33,15 +26,6 @@ small{
     margin-left: 20px;
     margin: 30px 6px;
   }
-  
-  /* .navbar-light .navbar-nav .nav-link.active, .navbar-light{
-    color: #fff;
-    font-size: 18px;
-    font-weight: 600;
-    margin: 30px 6px;
-  } */
-  
-  
   .navbar-light .navbar-nav .nav-link {
     color: #fff;
     font-size: 18px;
@@ -135,7 +119,6 @@ small{
     font-size: 16px;
     color: #f4f6fe;
   }
-  /* -------------------------socialmediaicon----------------------------------------- */
   .social-icon ul{
     margin-top: 5px;
     list-style: none;
