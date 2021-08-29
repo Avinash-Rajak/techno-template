@@ -164,10 +164,23 @@ small{
     padding-top: 70px;
     padding-bottom: 80px;
 }
-.no1{
+/* .no1{
     background-color: blue;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     color: white;
+    text-align: center;
+} */
+.no1 span{
+  text-align: center;
+  background-color: blue;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
 }
 .working1{
     padding-left:30px;
@@ -383,6 +396,15 @@ tainer6{
 .date{
   font-size: 11px;
   color: #fff;
+}
+.count{
+  background-color: #0c5adb;
+  color: #fff;
+  font-weight: 600;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  text-align: center;
 }
 @media only screen and (max-width: 998px) {
   .navbar-light .navbar-nav .nav-link {
