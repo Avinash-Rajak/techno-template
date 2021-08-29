@@ -52,6 +52,8 @@
 #section-team{
     padding: 170px 0 200px;
     position: relative;
+    background-position: center;
+    background-size: cover;
 }
 
 .header-title h2{
